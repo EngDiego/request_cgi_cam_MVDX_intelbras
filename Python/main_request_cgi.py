@@ -5,7 +5,7 @@ import requests
 url='http://192.168.15.32:80/cgi-bin/snapshot.cgi?channel=1&subtype=1'
 
 user='admin'
-password='xxxxxx'
+password='xxxx'
 file = open("picture.jpg", 'wb')
 
 credentials = requests.auth.HTTPDigestAuth(user, password)
